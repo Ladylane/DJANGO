@@ -1,0 +1,63 @@
+form{
+    margin: 30px;
+}
+
+form label {
+    display: inline;
+    text-align: center;
+    font-size: 1.3em;
+    padding: 1em;
+}
+
+.submit-button {
+    background: black;
+    color: red;
+    border: none;
+    border-radius: 3px;
+    font-size: 1em;
+    padding: 10px;
+}
+
+.submit-button:hover{
+    background: rgb(40, 40, 45);
+    font-weight: bolder; 
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+table {
+    margin: 30px;
+    text-align: center;
+}
+
+thead {
+    background:black;
+    color: red;
+    font-weight: bold;
+}
+
+td, th { 
+    border: 3px;
+    padding: 8px 15px;
+    border-style: solid;
+}
+    
+.list-button {
+    border: none;
+    border-radius: 5px;
+    padding: 2px 10px;
+    font-size: 1em ;
+}
+
+.apagar-button{
+    background-color: chartreuse;
+}
+
+.editar-button{
+    background-color: cyan;
+}
